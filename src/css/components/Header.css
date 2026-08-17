@@ -1,9 +1,8 @@
 header {
     width: 100%;
     height: auto;
-    padding: 20px 80px;
+    padding: 50px 80px;
     position: relative;
-    border: 1px solid white;
 }
 
 header nav {

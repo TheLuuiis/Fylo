@@ -1,0 +1,67 @@
+.container__productive {
+    gap: 70px;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 80px;
+}
+
+.description__productive {
+    width: 550px;
+    height: auto;
+}
+
+.description__productive h1 {
+    color: var(--text);
+    font-size: 50px;
+    font-weight: 600;
+    text-align: start;
+    margin: 0px 0px 15px;
+}
+
+.text__productive {
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 35px;
+}
+
+.text__productive p {
+    color: var(--text);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: start;
+}
+
+.description__productive a {
+    gap: 15px;
+    color: var(--blueInside);
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+    display: flex;
+    position: relative;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+.description__productive a::after {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    width: 190px;
+    height: 1px;
+    background: var(--blueInside);
+}
+
+.description__productive a:hover::after {
+    box-shadow: 
+        0 0 5px hsl(176, 68%, 64%),
+        0 0 10px hsl(176, 68%, 64%),
+        0 0 20px hsl(176, 68%, 64%);
+}
