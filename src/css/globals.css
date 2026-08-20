@@ -30,8 +30,8 @@ body {
 
 .container__all {
     width: 100%;
-    min-height: 300vh;
-    border: 1px solid green;
+    height: 310dvh;
+    position: relative;
     background-color: var(--mainBackground);
     padding-top: 80px;
 }

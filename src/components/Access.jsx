@@ -33,7 +33,6 @@ const Access = () => {
         },
     ];
 
-
     return (  
         <div className="container_options">
             <div className="container__cards">
